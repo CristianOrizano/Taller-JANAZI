@@ -1,0 +1,11 @@
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Domain\bin\Debug\net8.0\Jazani.Taller.Domain.deps.json
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Domain\bin\Debug\net8.0\Jazani.Taller.Domain.dll
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Domain\bin\Debug\net8.0\Jazani.Taller.Domain.pdb
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Domain\obj\Debug\net8.0\Jazani.Taller.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Domain\obj\Debug\net8.0\Jazani.Taller.Domain.AssemblyInfoInputs.cache
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Domain\obj\Debug\net8.0\Jazani.Taller.Domain.AssemblyInfo.cs
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Domain\obj\Debug\net8.0\Jazani.Taller.Domain.csproj.CoreCompileInputs.cache
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Domain\obj\Debug\net8.0\Jazani.Taller.Domain.dll
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Domain\obj\Debug\net8.0\refint\Jazani.Taller.Domain.dll
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Domain\obj\Debug\net8.0\Jazani.Taller.Domain.pdb
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Domain\obj\Debug\net8.0\ref\Jazani.Taller.Domain.dll

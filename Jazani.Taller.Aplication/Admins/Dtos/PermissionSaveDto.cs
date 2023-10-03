@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Jazani.Taller.Aplication.Admins.Dtos
+{
+    public class PermissionSaveDto
+    {
+        public string Name { get; set; }
+        public string Slug { get; set; }
+
+        PermissionSaveDto()
+        {
+            Name = "";
+            Slug = "";
+        }
+    }
+}

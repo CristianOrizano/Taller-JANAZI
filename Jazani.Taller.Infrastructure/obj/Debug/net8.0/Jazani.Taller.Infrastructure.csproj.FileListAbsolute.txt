@@ -1,0 +1,15 @@
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Infrastructure\bin\Debug\net8.0\Jazani.Taller.Infrastructure.deps.json
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Infrastructure\bin\Debug\net8.0\Jazani.Taller.Infrastructure.dll
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Infrastructure\bin\Debug\net8.0\Jazani.Taller.Infrastructure.pdb
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Infrastructure\bin\Debug\net8.0\Jazani.Taller.Domain.dll
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Infrastructure\bin\Debug\net8.0\Jazani.Taller.Domain.pdb
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Infrastructure\obj\Debug\net8.0\Jazani.Taller.Infrastructure.csproj.AssemblyReference.cache
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Infrastructure\obj\Debug\net8.0\Jazani.Taller.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Infrastructure\obj\Debug\net8.0\Jazani.Taller.Infrastructure.AssemblyInfoInputs.cache
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Infrastructure\obj\Debug\net8.0\Jazani.Taller.Infrastructure.AssemblyInfo.cs
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Infrastructure\obj\Debug\net8.0\Jazani.Taller.Infrastructure.csproj.CoreCompileInputs.cache
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Infrastructure\obj\Debug\net8.0\Jazani.Taller.Infrastructure.csproj.CopyComplete
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Infrastructure\obj\Debug\net8.0\Jazani.Taller.Infrastructure.dll
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Infrastructure\obj\Debug\net8.0\refint\Jazani.Taller.Infrastructure.dll
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Infrastructure\obj\Debug\net8.0\Jazani.Taller.Infrastructure.pdb
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\Jazani.Taller.Infrastructure\obj\Debug\net8.0\ref\Jazani.Taller.Infrastructure.dll

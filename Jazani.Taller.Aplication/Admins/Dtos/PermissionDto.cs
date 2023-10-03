@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Jazani.Taller.Aplication.Admins.Dtos
+{
+    public class PermissionDto
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Slug { get; set; }
+        public DateTimeOffset RegistrationDate { get; set; }
+        public bool State { get; set; }
+
+        PermissionDto()
+        {
+            Name = "";
+            Slug = "";
+        }
+    }
+}

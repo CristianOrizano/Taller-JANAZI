@@ -1,0 +1,6 @@
+@JAZANI_TALLER_Orizano_HostAddress = http://localhost:5248
+
+GET {{JAZANI_TALLER_Orizano_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
