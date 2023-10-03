@@ -12,8 +12,8 @@ namespace Jazani.Taller.Aplication.Admins.Services
     {
         Task<IReadOnlyList<PermissionDto>> FindAllAsync();
         Task<PermissionDto> FindByIdAsync(int id);
-        Task<PermissionDto> CreateAsync(PermissionSaveDto officeSaveDto);
-        Task<PermissionDto> EditAsync(int id, PermissionSaveDto officeSaveDto);
+        Task<PermissionDto> CreateAsync(PermissionSaveDto permisSaveDto);
+        Task<PermissionDto> EditAsync(int id, PermissionSaveDto permisSaveDto);
         Task<PermissionDto> DisabledAsync(int id);
 
     }

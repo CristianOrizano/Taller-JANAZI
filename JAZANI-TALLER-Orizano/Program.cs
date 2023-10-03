@@ -10,14 +10,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
-
 // Infrastructure
 builder.Services.addInfrastructureServices(builder.Configuration);
 
-
 // Applications
 builder.Services.AddApplicationServices();
+
+
+var app = builder.Build();
+
 
 
 

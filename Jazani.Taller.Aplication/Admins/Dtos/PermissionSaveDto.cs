@@ -8,13 +8,9 @@ namespace Jazani.Taller.Aplication.Admins.Dtos
 {
     public class PermissionSaveDto
     {
-        public string Name { get; set; }
-        public string Slug { get; set; }
+        public string? Name { get; set; }
+        public string? Slug { get; set; }
 
-        PermissionSaveDto()
-        {
-            Name = "";
-            Slug = "";
-        }
+        
     }
 }

@@ -76,3 +76,4 @@ D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\JAZANI-TALLER-Orizano\obj\Debug\net8.0\re
 D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\JAZANI-TALLER-Orizano\obj\Debug\net8.0\JAZANI-TALLER-Orizano.pdb
 D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\JAZANI-TALLER-Orizano\obj\Debug\net8.0\JAZANI-TALLER-Orizano.genruntimeconfig.cache
 D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\JAZANI-TALLER-Orizano\obj\Debug\net8.0\ref\JAZANI-TALLER-Orizano.dll
+D:\ZDEMO-API-NET\JAZANI-TALLER-Botcamp\JAZANI-TALLER-Orizano\obj\Debug\net8.0\JAZANI-TALLER-Orizano.sourcelink.json

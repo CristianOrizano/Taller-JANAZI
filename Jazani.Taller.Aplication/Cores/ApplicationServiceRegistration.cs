@@ -17,6 +17,7 @@ namespace Jazani.Taller.Aplication.Cores
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
             services.AddTransient<ILabelService, LabelService>();
+            services.AddTransient<IPermissionService, PermissionService>();
 
 
 

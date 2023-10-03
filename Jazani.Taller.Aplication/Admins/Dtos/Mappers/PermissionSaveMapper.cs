@@ -11,7 +11,7 @@ namespace Jazani.Taller.Aplication.Admins.Dtos.Mappers
     public class PermissionSaveMapper: Profile
     {
         public PermissionSaveMapper() {
-            CreateMap<Permission, PermissionSaveDto>();
+            CreateMap<Permission, PermissionSaveDto>().ReverseMap();
         }
         
     }
