@@ -8,6 +8,7 @@ namespace Jazani.Taller.Aplication.Admins.Dtos.Mappers
     {
         public LabelMapper()
         {
+            //seria para listado
             CreateMap<Label, LabelDto>();
         }
     }

@@ -11,17 +11,13 @@ namespace Jazani.Taller.Infrastructure.Cores.Context
     {
         public static IServiceCollection addInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
         {
+            //dbContext para conexion con base de datos
             services.AddDbContext<AplicationDbContext>(options =>
             {
                 options.UseSqlServer(configuration.GetConnectionString("DbConnection"));
             });
 
-            services.AddTransient<IPermissionRepository,PermissionRepository>();
-
-            services.AddTransient<ILabelRepository,LabelRepository>();
-
             return services;
         }
-
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jazani.Taller.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c80b785205cbbb8acab158969b260372c0fa1da8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jazani.Taller.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jazani.Taller.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

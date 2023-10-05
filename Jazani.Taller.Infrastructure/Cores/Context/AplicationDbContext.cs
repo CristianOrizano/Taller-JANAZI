@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,14 +14,12 @@ namespace Jazani.Taller.Infrastructure.Cores.Context
     {
         public AplicationDbContext(DbContextOptions<AplicationDbContext> options) : base(options)
         { }
-        public DbSet<Label> Labels { get; set; }
-        public DbSet<Permission> Permissions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.ApplyConfiguration(new LabelConfiguration());
-            modelBuilder.ApplyConfiguration(new PermissionConfiguration());
+            //aplicar configuraciones de entidades desde un ensamblaje
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
     }
 }

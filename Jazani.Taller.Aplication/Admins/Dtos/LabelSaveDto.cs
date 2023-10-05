@@ -9,7 +9,5 @@ namespace Jazani.Taller.Aplication.Admins.Dtos
     public class LabelSaveDto
     {
         public string? Name { get; set; }
-
-
     }
 }

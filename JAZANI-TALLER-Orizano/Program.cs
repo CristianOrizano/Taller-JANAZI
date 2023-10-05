@@ -1,3 +1,5 @@
+using Autofac.Extensions.DependencyInjection;
+using Autofac;
 using Jazani.Taller.Aplication.Cores;
 using Jazani.Taller.Infrastructure.Cores.Context;
 
@@ -10,11 +12,20 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//añadir los sevicios que estan en la cap 
 // Infrastructure
 builder.Services.addInfrastructureServices(builder.Configuration);
 
 // Applications
 builder.Services.AddApplicationServices();
+
+//Autofac
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory())
+    .ConfigureContainer<ContainerBuilder>(options =>
+    {
+        options.RegisterModule(new InfraestructureAutofacModule());
+        options.RegisterModule(new ApplicationAutoFacModule());
+    });
 
 
 var app = builder.Build();

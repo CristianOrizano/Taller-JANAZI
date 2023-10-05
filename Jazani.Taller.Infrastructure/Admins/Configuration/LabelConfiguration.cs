@@ -20,6 +20,5 @@ namespace Jazani.Taller.Infrastructure.Admins.Configuration
             builder.Property(t => t.State).HasColumnName("state");
         }
 
-
     }
 }

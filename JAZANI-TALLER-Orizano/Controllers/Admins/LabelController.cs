@@ -33,9 +33,7 @@ namespace JAZANI_TALLER_Orizano.Controllers.Admins
         [HttpPost]
         public async Task<LabelDto> Post([FromBody] LabelSaveDto labelSaveDto)
         {
-
             return await _labelService.CreateAsync(labelSaveDto);
-
         }
 
         // PUT api/<LabelController>/5

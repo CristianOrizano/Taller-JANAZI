@@ -12,5 +12,7 @@ namespace Jazani.Taller.Domain.Admins.Models
         public string? Name { get; set; }
         public DateTimeOffset RegistrationDate { get; set; }
         public bool State { get; set; }
+
+        public ICollection<PermissionLabel> PermissionLabels { get; set; } // Propiedad de navegación
     }
 }

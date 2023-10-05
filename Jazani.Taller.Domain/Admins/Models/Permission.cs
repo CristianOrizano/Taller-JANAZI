@@ -14,6 +14,8 @@ namespace Jazani.Taller.Domain.Admins.Models
         public DateTimeOffset RegistrationDate { get; set; }
         public bool State { get; set; }
 
+        public ICollection<PermissionLabel> PermissionLabels { get; set; } // Propiedad de navegación
+
         Permission() {
             Name = "";
             Slug = "";

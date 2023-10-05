@@ -28,7 +28,6 @@ namespace Jazani.Taller.Aplication.Admins.Services.Implementations
             label.State = true;
 
             Label labelSaved = await _labelRepository.SaveAsync(label);
-
             return _mapper.Map<LabelDto>(labelSaved);
         }
 
@@ -62,7 +61,7 @@ namespace Jazani.Taller.Aplication.Admins.Services.Implementations
 
         public async Task<LabelDto> FindByIdAsync(int id)
         {
-            Label? label = await _labelRepository.FindByIdAsync(id);
+            Label label = await _labelRepository.FindByIdAsync(id);
 
             return _mapper.Map<LabelDto>(label);
 

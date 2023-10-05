@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/ordji56QYik4EL8TBHYKOi0vzu3+lrxJ4kwTJAdn4Ug0PLrbGkTo6nX7pxck5rCwCUcxKT9SGNOfGBbg62tZA==",
+  "dgSpecHash": "i9SAWPszZZ7HkaWFP2evstUm4Db/eQgcBgxjKVELg7qiNTPNkfMB9X84NTTKaOTZt/x9Z6Lg0uiL1rep/lFGwg==",
   "success": true,
   "projectFilePath": "D:\\ZDEMO-API-NET\\JAZANI-TALLER-Botcamp\\JAZANI-TALLER-Orizano\\JAZANI-TALLER-Orizano.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

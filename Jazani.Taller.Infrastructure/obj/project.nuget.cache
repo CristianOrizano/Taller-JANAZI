@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Bh7910mBtzZExZJG5v0R2FuwltAFXmGGQZpa0v2f4xRIZvjFHQcP8yzqmBZJkhSnu6/wKBsWRxlmpbDQcbOsIA==",
+  "dgSpecHash": "JQ1lWWnwwDYQPfJ3gfrHHpmMLWij+3SRYBvxrTt6F/mnnfSo6CoEIUOtnQgYLiti/K2BzmpNV2utDNeljIBUqA==",
   "success": true,
   "projectFilePath": "D:\\ZDEMO-API-NET\\JAZANI-TALLER-Botcamp\\Jazani.Taller.Infrastructure\\Jazani.Taller.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

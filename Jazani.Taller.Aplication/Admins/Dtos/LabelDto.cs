@@ -12,6 +12,5 @@ namespace Jazani.Taller.Aplication.Admins.Dtos
         public string? Name { get; set; }
         public DateTimeOffset RegistrationDate { get; set; }
         public bool State { get; set; }
-
     }
 }

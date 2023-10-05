@@ -15,6 +15,5 @@ namespace Jazani.Taller.Aplication.Admins.Dtos.Mappers
         {
             CreateMap<Label, LabelSaveDto>().ReverseMap();
         }
-
     }
 }

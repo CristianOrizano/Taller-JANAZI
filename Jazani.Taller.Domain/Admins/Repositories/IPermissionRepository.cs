@@ -1,4 +1,5 @@
 ﻿using Jazani.Taller.Domain.Admins.Models;
+using Jazani.Taller.Domain.Cores.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,11 +8,9 @@ using System.Threading.Tasks;
 
 namespace Jazani.Taller.Domain.Admins.Repositories
 {
-    public interface IPermissionRepository
+    public interface IPermissionRepository: ICrudRepository<Permission,int>
     {
-        Task<IReadOnlyList<Permission>> FindAllAsync();
-        Task<Permission> FindByIdAsync(int id);
-        Task<Permission> SaveAsync(Permission permission);
+
 
     }
 }
