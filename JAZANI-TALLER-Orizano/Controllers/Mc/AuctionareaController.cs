@@ -32,21 +32,21 @@ namespace JAZANI_TALLER_Orizano.Controllers.Mc
             return await _auctionService.FindByIdAsync(id);
         }
 
-        // POST api/<LabelController>
+        // POST api/<AuctionareaController>
         [HttpPost]
         public async Task<AuctionareaDto> Post([FromBody] AuctionareaSaveDto auctioSaveDto)
         {
             return await _auctionService.CreateAsync(auctioSaveDto);
         }
 
-        // PUT api/<LabelController>/5
+        // PUT api/<AuctionareaController>/5
         [HttpPut("{id}")]
         public async Task<AuctionareaDto> Put(int id, [FromBody] AuctionareaSaveDto auctioSaveDto)
         {
             return await _auctionService.EditAsync(id, auctioSaveDto);
         }
 
-        // DELETE api/<LabelController>/5
+        // DELETE api/<AuctionareaController>/5
         [HttpDelete("{id}")]
         public async Task<AuctionareaDto> Delete(int id)
         {
