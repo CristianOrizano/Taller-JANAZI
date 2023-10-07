@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JAZANI-TALLER-Orizano")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c80b785205cbbb8acab158969b260372c0fa1da8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfb4b12aa14f6c036969e3ed5c419764f42b95cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("JAZANI-TALLER-Orizano")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JAZANI-TALLER-Orizano")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

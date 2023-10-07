@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jazani.Taller.Aplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c80b785205cbbb8acab158969b260372c0fa1da8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfb4b12aa14f6c036969e3ed5c419764f42b95cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jazani.Taller.Aplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jazani.Taller.Aplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

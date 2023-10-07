@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Jazani.Taller.Infrastructure.Mc.Persistences
 {
-    public class AuctionareaRepository : CrudRepository<Auctionarea, int>, IAuctionareaRepository
+    public class AuctionareaRepository : CrudRepository<Auctionarea, int>,IAuctionareaRepository
     {
         public AuctionareaRepository(AplicationDbContext dbContext) : base(dbContext)
         {
