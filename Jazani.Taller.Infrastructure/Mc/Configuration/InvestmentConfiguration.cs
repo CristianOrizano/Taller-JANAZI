@@ -17,41 +17,41 @@ namespace Jazani.Taller.Infrastructure.Mc.Configuration
             builder.HasKey(t => t.Id);
             builder.Property(t => t.AmountInvested).HasColumnName("amountinvestd");
             builder.Property(t => t.MiningConcessionid).HasColumnName("miningconcessionid");
-            builder.Property(t => t.InvestmentTypeId).HasColumnName("investmenttypeid");
-            builder.Property(t => t.CurrencyTypeId).HasColumnName("currencytypeid");
+            builder.Property(t => t.InvestmentTypeid).HasColumnName("investmenttypeid");
+            builder.Property(t => t.CurrencyTypeid).HasColumnName("currencytypeid");
 
             builder.Property(t => t.Investmentconceptid).HasColumnName("investmentconceptid");
             builder.Property(t => t.Measureunitid).HasColumnName("measureunitid");
             builder.Property(t => t.Periodtypeid).HasColumnName("periodtypeid");
 
             builder.Property(t => t.RegistrationDate).HasColumnName("registrationdate");
-            builder.Property(t => t.Holderid).HasColumnName("holderid");
+            builder.Property(t => t.HolderId).HasColumnName("holderid");
             builder.Property(t => t.State).HasColumnName("state");
-            builder.Property(t => t.DeclaredTypeId).HasColumnName("declaredtypeid");
+            builder.Property(t => t.DeclaredTypeid).HasColumnName("declaredtypeid");
 
             // Definir relaciones foráneas
             builder.HasOne(t => t.Holder)
-                .WithMany()
-                .HasForeignKey(t => t.Holderid);
+                .WithMany(many => many.Investments)
+                .HasForeignKey(t => t.HolderId);
 
             builder.HasOne(t => t.Investmentconcept)
-                .WithMany()
+                 .WithMany(many => many.Investments)
                 .HasForeignKey(t => t.Investmentconceptid);
 
             builder.HasOne(t => t.Investmenttype)
-                .WithMany()
-                .HasForeignKey(t => t.InvestmentTypeId);
+                 .WithMany(many => many.Investments)
+                .HasForeignKey(t => t.InvestmentTypeid);
 
             builder.HasOne(t => t.MeasureUnit)
-                .WithMany()
+                  .WithMany(many => many.Investments)
                 .HasForeignKey(t => t.Measureunitid);
 
             builder.HasOne(t => t.MiningConcession)
-                .WithMany()
+                  .WithMany(many => many.Investments)
                 .HasForeignKey(t => t.MiningConcessionid);
 
             builder.HasOne(t => t.PeriodType)
-                .WithMany()
+                  .WithMany(many => many.Investments)
                 .HasForeignKey(t => t.Periodtypeid);
 
         }

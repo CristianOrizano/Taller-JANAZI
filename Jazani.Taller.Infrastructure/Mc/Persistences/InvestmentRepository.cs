@@ -23,15 +23,17 @@ namespace Jazani.Taller.Infrastructure.Mc.Persistences
         {
             return await _dbContext.Set<Investment>()
                .Include(i => i.Investmentconcept).Include(i => i.Investmenttype) 
-               .Include(i => i.MeasureUnit).Include(i => i.PeriodType) 
+               .Include(i => i.MeasureUnit).Include(i => i.PeriodType).Include(i => i.Holder)
+               .Include(i => i.MiningConcession)
                .AsNoTracking()
                .ToListAsync();
         }
-        public override async Task<Investment> FindByIdAsync(int id)
+        public override async Task<Investment?> FindByIdAsync(int id)
         {
             return await _dbContext.Set<Investment>()
                 .Include(i => i.Investmentconcept).Include(i => i.Investmenttype)
-               .Include(i => i.MeasureUnit).Include(i => i.PeriodType)
+               .Include(i => i.MeasureUnit).Include(i => i.PeriodType).Include(i => i.Holder)
+                .Include(i => i.MiningConcession)
                .FirstOrDefaultAsync(t => t.Id == id);
         }
 

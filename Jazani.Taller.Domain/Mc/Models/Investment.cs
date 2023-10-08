@@ -19,11 +19,11 @@ namespace Jazani.Taller.Domain.Mc.Models
         public int? Measureunitid { get; set; }
         public int? Periodtypeid { get; set; }
 
-        public int InvestmentTypeId { get; set; }
-        public int CurrencyTypeId { get; set; }
+        public int InvestmentTypeid { get; set; }
+        public int CurrencyTypeid { get; set; }
         public DateTimeOffset RegistrationDate { get; set; }
-        public int Holderid { get; set; }
-        public int DeclaredTypeId { get; set; }
+        public int HolderId { get; set; }
+        public int DeclaredTypeid { get; set; }
         public bool State { get; set; }
 
 
