@@ -11,6 +11,7 @@ namespace JAZANI_TALLER_Orizano.Controllers.Mc
     [ApiController]
     public class InvestmentController : ControllerBase
     {
+        //Inyeccion
         private readonly IInvestmentService _invesmenService;
         public InvestmentController(IInvestmentService invesmeService)
         {
